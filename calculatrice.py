@@ -2,7 +2,7 @@
 
 
 def addition(a: float, b: float) -> float:
-    return a - b
+    return a + b
 
 
 def soustraction(a: float, b: float) -> float:
@@ -70,3 +70,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+def puissance(a, b):
+    return a ** b
