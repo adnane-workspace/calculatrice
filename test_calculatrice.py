@@ -1,3 +1,4 @@
+from calculatrice import puissance
 import unittest
 from unittest.mock import patch
 
@@ -43,3 +44,5 @@ class TestLireNombre(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+def test_puissance():
+    assert puissance(2, 3) == 8
