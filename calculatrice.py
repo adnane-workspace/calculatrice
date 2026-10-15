@@ -2,7 +2,7 @@
 
 
 def addition(a: float, b: float) -> float:
-    return a + b
+    return a - b
 
 
 def soustraction(a: float, b: float) -> float:
